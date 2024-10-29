@@ -1,0 +1,45 @@
+.headerSearch {
+  background-color: royalblue;
+  height: 50px;
+  min-width: 100vh;
+  align-content: center;
+  margin-bottom: 25px;
+}
+
+.headerForm {
+  display: flex;
+  justify-content: center;
+}
+
+.headerInput {
+  padding: 10px;
+  width: 400px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.headerInput:focus {
+  outline: none;
+}
+
+.headerBtnContainer {
+  position: relative;
+}
+
+.headerBtn {
+  position: absolute;
+  right: 10px; /* Distance from the right edge */
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+
+  border: none;
+  background: transparent;
+}
+
+.headerBtn:hover,
+.headerBtn:focus {
+  border: none;
+  outline: none;
+  color: lightblue;
+}

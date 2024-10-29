@@ -1,0 +1,13 @@
+.loadMoreBtn {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.loadMoreBtn:focus,
+.loadMoreBtn:hover {
+  border-color: royalblue;
+  outline: royalblue;
+  background-color: royalblue;
+  color: white;
+}
